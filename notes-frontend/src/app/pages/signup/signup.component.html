@@ -1,0 +1,72 @@
+<div class="main-section">
+
+  <div class="main-container-box">
+
+    <div class="form-container">
+
+      <h1 class="title">Sign up</h1>
+
+      <form #signupForm="ngForm" (ngSubmit)="signup(signupForm)">
+
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input
+              type="text"
+              required
+              minlength="3"
+              class="input"
+              name="name"
+              [ngModel]="user.name"
+              placeholder="e.g. Alex Smith">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input
+              type="email"
+              required
+              minlength="5"
+              email
+              class="input"
+              name="email"
+              [ngModel]="user.email"
+              placeholder="e.g. alexsmith@gmail.com">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Password</label>
+          <div class="control">
+            <input
+              type="password"
+              required
+              minlength="8"
+              class="input"
+              name="password"
+              [ngModel]="password"
+              placeholder="enter your password">
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <button type="submit" style="margin-top: 28px" [disabled]="!signupForm.valid" class="button is-primary has-text-white is-fullwidth">
+              Sign up
+            </button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="alternate-bar">
+      <h2>Already have an account?</h2>
+      <button class="button" routerLink="/login">Log in</button>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,108 @@
+// Changing bulma variables and adding global styles
+
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$purple: #a59ad7;
+$pink: #fe76c2;
+$blue: #37c7f2;
+
+$light-red: #fff3f3;
+
+$light: #fafcff;
+$dark: #3d4a51;
+
+$green: #0bf387;
+
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $purple;
+$link: $blue;
+
+// Update some of Bulma's component variables
+$body-background-color: $light;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-background-color: #f3f5fa;
+$input-shadow: none;
+
+
+
+
+
+/* GLOBAL STYLES */
+
+html, body {
+    height: 100%;
+
+    // Set the default font size to 18px
+    font-size: 18px !important;
+
+    overflow: hidden !important;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    // Center the children elements
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-box {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+    overflow: hidden;
+
+    box-shadow: 0px 8px 25px 7px rgba(black, 0.08);
+    width: 420px;
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background: white;
+    
+        padding: 50px;
+        overflow-y: auto;
+    }
+
+    .alternate-bar {
+        display: flex;
+        flex-direction: row;
+
+        padding: 20px 50px;
+
+        align-items: center;
+
+        background: $dark;
+
+        h2 {
+            font-size: 18px;
+            color: rgb(250, 253, 255);
+            flex-grow: 1;
+        }
+
+        button {
+            color: white;
+            border-color: #f5f5f5;
+            background-color: transparent;
+
+            &:hover {
+                border-color: $primary;
+                background-color: $primary;
+            }
+        }
+    }
+}
+
+
+
