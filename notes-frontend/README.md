@@ -1,6 +1,13 @@
-# NotesFrontend
+# Notes Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+[![Application Illustration](./src/assets/angular_thumbnail.png)](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A)
+
+<!-- TODO: Change links when you upload video -->
+
+<!-- ##### Watch the full tutorial on [Youtube](https://youtu.be/YGCDAXFWAZo)!  -->
+##### Tutorial coming soon! [Subscribe](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A) to get notified when it is released.
+
+---
 
 ## Development server
 
