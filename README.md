@@ -1,6 +1,6 @@
 # Notes App (MEAN Stack)
 
-[![Application Illustration](app_thumbnail.png)](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A)
+[![Application Illustration](app_illustration.png)](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A)
 
 <!-- TODO: Change links when you upload video -->
 
