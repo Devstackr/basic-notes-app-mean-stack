@@ -46,7 +46,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bulma/css/bulma.css"
             ],
             "scripts": []
           },
@@ -154,5 +155,8 @@
       }
     }
   },
-  "defaultProject": "notes-frontend"
+  "defaultProject": "notes-frontend",
+  "cli": {
+    "analytics": "5ee227c9-5c7d-4a29-b653-49262826d630"
+  }
 }
